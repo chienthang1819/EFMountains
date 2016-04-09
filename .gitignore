@@ -1,0 +1,5 @@
+/EFMountains/obj
+/EFMountains/bin
+/EFMountains/*.user
+/packages
+/*.suo
