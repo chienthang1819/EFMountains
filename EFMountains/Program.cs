@@ -60,8 +60,23 @@ namespace EFMountains
                     Price = 5
                 });
 
+                var order3 = new Order()
+                {
+                    Id = Guid.Parse("B77C1F3E-A2B6-44DF-A2F0-2FFC4A7DD349"),
+                    Name = "Order 2",
+                    CreatedAt = DateTime.Now,
+                    CreatedBy = "root@system"
+                };
+                order3.Items.Add(new OrderItem()
+                    {
+                        Name = "Product 3",
+                        Price = 10,
+                        Amount = 2
+                    });
+
                 context.Orders.AddOrUpdate(order1);
                 context.Orders.AddOrUpdate(order2);
+                context.Orders.AddOrUpdate(order3);
 
                 context.SaveChanges();
             }
