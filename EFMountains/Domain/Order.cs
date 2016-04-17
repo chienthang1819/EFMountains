@@ -9,6 +9,7 @@ namespace EFMountains.Domain
         public Order()
         {
             Items = new List<OrderItem>();
+            DeliverTo = new Contact();
         }
 
         public Guid Id { get; set; }
@@ -22,6 +23,8 @@ namespace EFMountains.Domain
         public string CreatedBy { get; set; }
 
         public DateTime CreatedAt { get; set; }
+
+        public Contact DeliverTo { get; set; }
 
         public IList<OrderItem> Items { get; set; }
     }

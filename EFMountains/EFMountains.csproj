@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Contact.cs" />
     <Compile Include="Domain\Order.cs" />
     <Compile Include="Domain\OrderItem.cs" />
     <Compile Include="Migrations\201604100810207_InitialCreate.cs" />
@@ -58,6 +59,14 @@
     <Compile Include="Migrations\201604100819190_AddValidationRules.cs" />
     <Compile Include="Migrations\201604100819190_AddValidationRules.Designer.cs">
       <DependentUpon>201604100819190_AddValidationRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604170910004_AddContactType.cs" />
+    <Compile Include="Migrations\201604170910004_AddContactType.Designer.cs">
+      <DependentUpon>201604170910004_AddContactType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604170914552_RemoveIdOnContact.cs" />
+    <Compile Include="Migrations\201604170914552_RemoveIdOnContact.Designer.cs">
+      <DependentUpon>201604170914552_RemoveIdOnContact.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
@@ -77,6 +86,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201604100819190_AddValidationRules.resx">
       <DependentUpon>201604100819190_AddValidationRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604170910004_AddContactType.resx">
+      <DependentUpon>201604170910004_AddContactType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604170914552_RemoveIdOnContact.resx">
+      <DependentUpon>201604170914552_RemoveIdOnContact.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

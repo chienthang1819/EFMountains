@@ -14,7 +14,13 @@ namespace EFMountains
         public StoreDbContext(string connectionName)
             : base(ConfigurationManager.ConnectionStrings[connectionName].ConnectionString)
         {
+        }
 
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.ComplexType<Contact>();
         }
 
         public IDbSet<Order> Orders { get; set; }

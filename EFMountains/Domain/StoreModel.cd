@@ -3,18 +3,28 @@
   <Class Name="EFMountains.Domain.Order">
     <Position X="3.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <HashCode>AAACAAAAAAAACAAAACAAEAQAAAAAAAAAAAAAAAAAAAE=</HashCode>
       <FileName>Domain\Order.cs</FileName>
     </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DeliverTo" />
+    </ShowAsAssociation>
     <ShowAsCollectionAssociation>
       <Property Name="Items" />
     </ShowAsCollectionAssociation>
   </Class>
   <Class Name="EFMountains.Domain.OrderItem">
-    <Position X="6.25" Y="1.25" Width="1.5" />
+    <Position X="6" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAQAAAAAAAAAAAASAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Domain\OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EFMountains.Domain.Contact">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAIAAAAAQ=</HashCode>
+      <FileName>Domain\Contact.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
