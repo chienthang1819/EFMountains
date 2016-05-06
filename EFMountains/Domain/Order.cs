@@ -27,5 +27,8 @@ namespace EFMountains.Domain
         public Contact DeliverTo { get; set; }
 
         public IList<OrderItem> Items { get; set; }
+
+        [Timestamp]
+        public byte[] Version { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace EFMountains.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            AutomaticMigrationDataLossAllowed = true;
             ContextKey = "EFMountains.StoreDbContext";
         }
 

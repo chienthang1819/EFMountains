@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMountains", "EFMountains\EFMountains.csproj", "{8D6ABE32-A275-4B58-99BE-0C2769C7466E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMountains.Tests", "EFMountains.Tests\EFMountains.Tests.csproj", "{EF10D1D5-62B0-4E3F-9247-DEBCCF04F49E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{8D6ABE32-A275-4B58-99BE-0C2769C7466E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D6ABE32-A275-4B58-99BE-0C2769C7466E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D6ABE32-A275-4B58-99BE-0C2769C7466E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF10D1D5-62B0-4E3F-9247-DEBCCF04F49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF10D1D5-62B0-4E3F-9247-DEBCCF04F49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF10D1D5-62B0-4E3F-9247-DEBCCF04F49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF10D1D5-62B0-4E3F-9247-DEBCCF04F49E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
