@@ -74,10 +74,6 @@
     <Compile Include="Migrations\201605051041234_AddTimestampFieldVersion.Designer.cs">
       <DependentUpon>201605051041234_AddTimestampFieldVersion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201605060253368_AddTimestampFieldVersion1.cs" />
-    <Compile Include="Migrations\201605060253368_AddTimestampFieldVersion1.Designer.cs">
-      <DependentUpon>201605060253368_AddTimestampFieldVersion1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,9 +103,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605051041234_AddTimestampFieldVersion.resx">
       <DependentUpon>201605051041234_AddTimestampFieldVersion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605060253368_AddTimestampFieldVersion1.resx">
-      <DependentUpon>201605060253368_AddTimestampFieldVersion1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
